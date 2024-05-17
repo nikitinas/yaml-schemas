@@ -22,7 +22,16 @@
         "command": "yaml-schemas.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Yaml Schemas",
+      "properties": {
+        "yaml.schemasDir": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",
@@ -39,6 +48,7 @@
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
     "@types/vscode": "^1.89.0",
+    "@types/js-yaml": "^4.0.9",
     "@typescript-eslint/eslint-plugin": "^7.7.1",
     "@typescript-eslint/parser": "^7.7.1",
     "@vscode/test-cli": "^0.0.9",
@@ -51,6 +61,7 @@
   },
   "dependencies": {
     "@vscode/vsce": "^2.26.1",
+    "js-yaml": "^4.1.0",
     "vsce": "^2.15.0"
   }
 }
