@@ -1,3 +1,5 @@
+import {SchemaTemplate} from "./schemaTemplate";
+
 export class SchemaTemplates {
     private readonly nameToTemplate: Map<string, SchemaTemplate> = new Map();
 
