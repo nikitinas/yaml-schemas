@@ -1,0 +1,17 @@
+{
+  "type": "array",
+  "additionalProperties": false,
+  "items": {
+    "type": "object",
+    "properties": {
+      "role": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  },
+  "filePattern": "roles.yml"
+}

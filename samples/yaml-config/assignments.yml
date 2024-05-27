@@ -1,0 +1,6 @@
+- person: Bob.Dylan
+  role: Admin
+- person: John.Doe
+  role: User
+- person: Alice.Cooper
+  role: Admin

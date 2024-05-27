@@ -1,0 +1,17 @@
+{
+  "type": "array",
+  "additionalProperties": false,
+  "items": {
+    "type": "object",
+    "properties": {
+      "firstName": {
+        "type": "string"
+      },
+      "lastName": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  },
+  "filePattern": "people.yml"
+}

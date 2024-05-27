@@ -1,0 +1,28 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "person": {
+        "type": "string",
+        "enumSource": {
+          "file": "people.yml",
+          "expression": "p => p.firstName + '.' + p.lastName"
+        }
+      },
+      "role": {
+        "type": "string",
+        "enumSource": {
+          "file": "roles.yml",
+          "property": "role"
+        }
+      }
+    },
+    "required": [
+      "person",
+      "role"
+    ],
+    "additionalProperties": false
+  },
+  "filePattern": "assignments.yml"
+}
